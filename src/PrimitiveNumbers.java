@@ -88,12 +88,13 @@ public class PrimitiveNumbers {
         System.out.println("varCharDecimal2 = " + varCharDecimal2);
 
         // TIPO PRIMITIVO BOOLEAN
-        boolean isInside = true;
+        boolean isInside = false;
         boolean isAuthenticated = false;
         String emailSaved = "jhosepgc14@gmail.com";
         String passwordSaved = "Jgc140798";
 
         //pequeño ejercicio con if and else para probar los tipos booleans
+        
         Scanner consola = new Scanner(System.in);
         System.out.println("Ingrese su correo : ");
         String email = consola.nextLine();
