@@ -24,7 +24,7 @@ public class StoreBooks {
         System.out.println("\nProporciona el precio: ");
         double priceBook = Double.parseDouble(consola.nextLine());
 
-        System.out.println("\nProporciona el envio gratuito: ");
+        System.out.println("\nProporciona el envio gratuito (true / false) : ");
         boolean sendBook = Boolean.valueOf(consola.nextLine());
 
         System.out.println("\n" + nameBook + idBook);
