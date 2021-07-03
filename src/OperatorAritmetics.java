@@ -12,7 +12,7 @@ public class OperatorAritmetics {
 
     public static void main(String args[]) {
 
-        //OPERADORES ARITMENTICOS
+        // OPERADORES ARITMENTICOS
         int a = 3, b = 2;
 
         int result = a + b;
@@ -42,12 +42,12 @@ public class OperatorAritmetics {
         }
 
         // OPERADORES DE ASIGNACION
-        //asignacion
+        // asignacion
         int d = 4, e = 2;
         int f = d + 5 - e;
         System.out.println("f = " + f);
 
-        //asignacion pero de composicion
+        // asignacion pero de composicion
         d += 1; // d = d + 1
         System.out.println("d+= = " + d);
 
@@ -63,7 +63,7 @@ public class OperatorAritmetics {
         d %= 2; // d = d % 2
         System.out.println("d%= = " + d);
 
-        // OPERADORES UNARIOS 
+        // OPERADORES UNARIOS
         int g = 3;
         int h = -g;
         System.out.println("g = " + g);
@@ -74,14 +74,14 @@ public class OperatorAritmetics {
         System.out.println("j = " + j);
         System.out.println("k = " + k);
 
-        //incremento 
-        //1.- preincremento (simbolo antes de la variable)
+        // incremento
+        // 1.- preincremento (simbolo antes de la variable)
         var l = 3;
         var m = ++l; // primero se incrementa la variables y despues usa su valor
         System.out.println("l = " + l);
         System.out.println("m = " + m);
 
-        //2.- postincremento (simbolo despues de la variable)
+        // 2.- postincremento (simbolo despues de la variable)
         var n = 4;
         var o = n++; // primero se utiliza el valor y despues incrementa
         System.out.println("n = " + n);
@@ -108,11 +108,11 @@ public class OperatorAritmetics {
 
         System.out.println("t = " + t);
 
-        boolean u = cadena.equals(cadena2); //comparamos el contenido de cadenas
+        boolean u = cadena.equals(cadena2); // comparamos el contenido de cadenas
 
         System.out.println("u = " + u);
 
-        boolean v = p >= q;//mayor  que > o el mayor o igual >=
+        boolean v = p >= q;// mayor que > o el mayor o igual >=
         System.out.println("v = " + v);
 
         if (p % 2 == 0) {

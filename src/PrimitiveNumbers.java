@@ -14,7 +14,7 @@ public class PrimitiveNumbers {
 
     public static void main(String args[]) {
 
-        //TIPOS PRIMITIVOS Y NUMERICOS ENTEROS
+        // TIPOS PRIMITIVOS Y NUMERICOS ENTEROS
         byte numeroByte = 10;
         byte numeroByteI = (byte) 129;
         System.out.println("\nnumeroByteImpreciso = " + numeroByteI);
@@ -43,7 +43,7 @@ public class PrimitiveNumbers {
         System.out.println("Valor minimo Long : " + Long.MIN_VALUE);
         System.out.println("Valor maximo Long : " + Long.MAX_VALUE);
 
-        //TIPOS PRIMITIVOS TIPO FLOTANTE
+        // TIPOS PRIMITIVOS TIPO FLOTANTE
         float numeroFloat = 10.0F;
         float numeroFloatI = (float) 3.4028236E38D;
         System.out.println("\nnumeroFloat = " + numeroFloat);
@@ -58,7 +58,7 @@ public class PrimitiveNumbers {
         System.out.println("Valor minimo double : " + Double.MIN_VALUE);
         System.out.println("Valor maximo double : " + Double.MAX_VALUE);
 
-        //TIPOS CON VAR Y TIPOS PRIMITIVOS
+        // TIPOS CON VAR Y TIPOS PRIMITIVOS
         var numeroEntero = 10;
         System.out.println("\nnumeroEntero = " + numeroEntero);
 
@@ -68,7 +68,7 @@ public class PrimitiveNumbers {
         var numerFloat = 10.0F;
         System.out.println("numeroFloat = " + numerFloat);
 
-        //TIPOS PRIMITIVOS CHAR
+        // TIPOS PRIMITIVOS CHAR
         char miCaracter = 'a';
         System.out.println("\nmiCaracter = " + miCaracter);
 
@@ -93,17 +93,15 @@ public class PrimitiveNumbers {
         String emailSaved = "jhosepgc14@gmail.com";
         String passwordSaved = "Jgc140798";
 
-        //pequeño ejercicio con if and else para probar los tipos booleans
-        
+        // pequeño ejercicio con if and else para probar los tipos booleans
+
         Scanner consola = new Scanner(System.in);
         System.out.println("Ingrese su correo : ");
         String email = consola.nextLine();
         System.out.println("Dígite su contraseña : ");
         String password = consola.nextLine();
 
-        if (!"".equals(email.trim())
-                && email.equals(emailSaved)
-                && !"".equals(password.trim())
+        if (!"".equals(email.trim()) && email.equals(emailSaved) && !"".equals(password.trim())
                 && password.equals(passwordSaved)) {
             isInside = true;
             isAuthenticated = true;

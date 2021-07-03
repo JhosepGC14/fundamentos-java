@@ -12,19 +12,19 @@ import java.util.Scanner;
  * @author Jhosep_PC
  */
 public class OlderThanThat {
-    public static void main (String args[]){
-        
+    public static void main(String args[]) {
+
         Scanner scan = new Scanner(System.in);
-            
+
         System.out.println("Proporciona el numero1: ");
         int firstNumber = Integer.parseInt(scan.nextLine());
-        
+
         System.out.println("Proporciona el numero2: ");
         int secondNumber = Integer.parseInt(scan.nextLine());
-        
-        int result = (firstNumber > secondNumber) ? firstNumber  : secondNumber ;
-        
+
+        int result = (firstNumber > secondNumber) ? firstNumber : secondNumber;
+
         System.out.println("El numero mayor es: \n" + result);
     }
-    
+
 }

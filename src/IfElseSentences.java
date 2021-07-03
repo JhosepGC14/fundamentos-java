@@ -9,5 +9,5 @@
  * @author Jhosep_PC
  */
 public class IfElseSentences {
-    
+
 }

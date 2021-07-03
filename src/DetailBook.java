@@ -14,18 +14,17 @@ import java.util.Scanner;
 public class DetailBook {
 
     public static void main(String args[]) {
-        
+
         Scanner consola = new Scanner(System.in);
-        
+
         System.out.println("Ingrese el autor : ");
         String autor = consola.nextLine();
-        
+
         System.out.println("Ingrese el titulo del libro : ");
         String titulo = consola.nextLine();
-        
+
         System.out.println(titulo + " fue escrito por " + autor);
-        
-        
+
     }
 
 }
