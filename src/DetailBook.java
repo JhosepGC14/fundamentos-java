@@ -25,6 +25,7 @@ public class DetailBook {
 
         System.out.println(titulo + " fue escrito por " + autor);
 
+        consola.close();
     }
 
 }

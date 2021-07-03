@@ -30,6 +30,8 @@ public class StoreBooks {
         System.out.println("\n" + nameBook + idBook);
         System.out.println("Precio : " + priceBook);
         System.out.println("Envio Gratuito : " + sendBook);
+
+        consola.close();
     }
 
 }

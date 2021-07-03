@@ -28,6 +28,7 @@ public class RectanguloWork {
         System.out.println("Area : " + area);
         System.out.println("Perimetro : " + perimeter);
 
+        scan.close();
     }
 
 }

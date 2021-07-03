@@ -113,5 +113,7 @@ public class PrimitiveNumbers {
         } else {
             System.out.println("Credenciales inválidas o no existen.");
         }
+
+        consola.close();
     }
 }

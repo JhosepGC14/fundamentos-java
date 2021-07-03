@@ -59,5 +59,6 @@ public class SystemCalification {
 
     System.out.println("Calificacion : " + calification);
 
+    consola.close();
   }
 }

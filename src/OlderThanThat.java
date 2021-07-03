@@ -25,6 +25,8 @@ public class OlderThanThat {
         int result = (firstNumber > secondNumber) ? firstNumber : secondNumber;
 
         System.out.println("El numero mayor es: \n" + result);
+
+        scan.close();
     }
 
 }

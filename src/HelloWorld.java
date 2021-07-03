@@ -54,5 +54,6 @@ public class HelloWorld {
         String profesion = consola.nextLine();
         System.out.println("profesion = " + profesion);
 
+        consola.close();
     }
 }

@@ -40,6 +40,7 @@ public class ExerciseTypeConversion {
 
         System.out.println("caracter = " + caracter);
 
+        consola.close();
     }
 
 }
